@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+    text-align: center;
+}
+.main_container{
+    display: flex;
+    gap: 2rem;
+    background-color: rgb(181, 224, 225);
+    height: 70vh;
+    width: 60vw;
+    justify-content: center;
+    margin-left: 16rem;
+    flex-wrap: wrap;
+}
+h3{
+    background-color: black;
+    color: azure;
+    height: 2rem;
+    padding-top: 5px;
+}
+button{
+    text-align: center;
+}
+
+#total_output,#avg_output,#grade_output{
+    width: 12rem;
+    height: 5rem;
+    background-color: aliceblue;
+    align-items: center;
+}
+
